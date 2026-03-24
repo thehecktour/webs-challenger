@@ -83,25 +83,6 @@ python3 -m yahoo_finance_crawler.main --region "Brazil" --output brazil.csv
 
 ---
 
-## Estrutura do projeto
-
-```
-yahoo-finance-crawler/
-├── src/
-│   └── yahoo_finance_crawler/
-│       ├── __init__.py
-│       ├── crawler.py   # Selenium + BeautifulSoup + design patterns
-│       ├── writer.py    # Geração do CSV
-│       └── main.py      # Entry point (argparse)
-├── tests/
-│   └── test_crawler.py  # Testes unitários
-├── Dockerfile
-├── pyproject.toml
-└── README.md
-```
-
----
-
 ## Testes
 
 ```bash
