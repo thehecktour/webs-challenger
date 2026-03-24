@@ -1,0 +1,3 @@
+[console_scripts]
+yahoo-crawler=yahoo_finance_crawler.main:main
+

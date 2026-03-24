@@ -1,0 +1,6 @@
+services:
+  crawler:
+    build: .
+    volumes:
+      - ./output:/app/output:z
+    command: ["--region", "${REGION:-Argentina}", "--output", "/app/output/output.csv"]
